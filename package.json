@@ -1,0 +1,14 @@
+{
+  "name": "frontend-medley-ws",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=lib & npm run demo",
+    "playground-vue": "npm run dev --workspace=playground-vue",
+    "playground-react": "npm run dev --workspace=playground-react",
+    "playground-svelte": "npm run dev --workspace=playground-svelte"
+  }
+}

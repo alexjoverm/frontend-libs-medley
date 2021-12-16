@@ -1,0 +1,12 @@
+{
+  "name": "playground-vue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.1",
+    "vite": "^2.7.3",
+    "vue": "^3.2.13"
+  }
+}
